@@ -1,0 +1,22 @@
+# =========================================================
+# Malik Elzarif — robots.txt
+# NEXT CODE / robots.txt
+# =========================================================
+
+User-agent: *
+Allow: /
+
+# Block unnecessary system paths (optional safety)
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+
+# Sitemap location
+Sitemap: https://malikelzarif.com/sitemap.xml
+
+
+# =========================================================
+# Notes (remove if you want ultra-clean production file)
+# - Make sure sitemap URL matches your live domain
+# - If you add blog or new pages, update sitemap.xml
+# =========================================================

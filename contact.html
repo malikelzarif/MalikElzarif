@@ -1,393 +1,258 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- =========================================================
-    Malik Elzarif — Booking / Contact
-    WHITE + BLUE PREMIUM VERSION / contact.html
-  ========================================================== -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <title>Book Appointment | Malik Elzarif</title>
+  <title>Contact | Malik Elzarif</title>
   <meta
     name="description"
-    content="Book an appointment with Malik Elzarif for premium website design, storefront media, signage direction, and business presence systems."
+    content="Contact Malik Elzarif to discuss premium website design, digital positioning, and business presentation for companies that want a stronger market presence."
   />
-  <meta name="theme-color" content="#2459d3" />
-
-  <meta property="og:title" content="Book Appointment | Malik Elzarif" />
-  <meta
-    property="og:description"
-    content="Schedule a consultation with Malik Elzarif for premium websites, storefront media, and business presence systems."
-  />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://malikelzarif.com/contact.html" />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@600;700&display=swap"
-    rel="stylesheet"
-  />
-
   <link rel="stylesheet" href="css/style.css" />
-
-  <style>
-    .booking-layout {
-      display: grid;
-      gap: 22px;
-    }
-
-    .booking-card,
-    .booking-info-card,
-    .booking-note-card {
-      position: relative;
-      overflow: hidden;
-      border: 1px solid var(--line);
-      border-radius: 26px;
-      background: var(--surface-blue);
-      box-shadow: var(--shadow-md);
-      padding: 24px;
-    }
-
-    .booking-card::before,
-    .booking-info-card::before,
-    .booking-note-card::before {
-      content: "";
-      position: absolute;
-      inset: 0;
-      background:
-        radial-gradient(circle at top right, rgba(62,123,255,.08), transparent 30%);
-      pointer-events: none;
-    }
-
-    .booking-card > *,
-    .booking-info-card > *,
-    .booking-note-card > * {
-      position: relative;
-      z-index: 1;
-    }
-
-    .booking-lead {
-      margin-bottom: 18px;
-      font-size: 1rem;
-      color: var(--muted);
-    }
-
-    .booking-embed-wrap {
-      overflow: hidden;
-      border: 1px solid var(--line);
-      border-radius: 22px;
-      background: #ffffff;
-      box-shadow: var(--shadow-xs);
-    }
-
-    .booking-embed {
-      display: block;
-      width: 100%;
-      min-height: 760px;
-      border: 0;
-      background: #ffffff;
-    }
-
-    .booking-info-title,
-    .booking-note-title {
-      color: var(--text);
-      font-size: 1.08rem;
-      font-weight: 800;
-      margin-bottom: 12px;
-    }
-
-    .booking-list {
-      display: grid;
-      gap: 12px;
-    }
-
-    .booking-list li {
-      position: relative;
-      padding-left: 22px;
-      color: var(--text-soft);
-    }
-
-    .booking-list li::before {
-      content: "";
-      position: absolute;
-      left: 0;
-      top: .62em;
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
-      background: linear-gradient(135deg, var(--brand), var(--brand-2));
-      box-shadow: 0 0 0 6px rgba(36, 89, 211, 0.08);
-    }
-
-    .booking-links {
-      display: grid;
-      gap: 12px;
-      margin-top: 18px;
-    }
-
-    .booking-links a {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      min-height: 52px;
-      padding: 0 16px;
-      border: 1px solid var(--line);
-      border-radius: 18px;
-      background: rgba(36, 89, 211, 0.04);
-      color: var(--text);
-      font-weight: 700;
-      transition:
-        background var(--dur) var(--ease),
-        border-color var(--dur) var(--ease),
-        transform var(--dur) var(--ease);
-    }
-
-    .booking-links a:hover {
-      background: rgba(36, 89, 211, 0.06);
-      border-color: rgba(36, 89, 211, 0.14);
-      transform: translateY(-2px);
-    }
-
-    .hero-actions {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      margin-top: 24px;
-    }
-
-    @media (min-width: 980px) {
-      .booking-layout {
-        grid-template-columns: 1.15fr 0.85fr;
-        align-items: start;
-      }
-    }
-
-    @media (max-width: 699px) {
-      .booking-card,
-      .booking-info-card,
-      .booking-note-card {
-        padding: 20px;
-      }
-
-      .booking-embed {
-        min-height: 680px;
-      }
-    }
-  </style>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
-  <div class="site-shell">
-    <header class="header">
-      <div class="header__bar">
-        <div class="container header__inner">
-          <a class="brand" href="index.html" aria-label="Malik Elzarif Home">
-            <span class="brand__mark">ME</span>
-            <span class="brand__text">
-              <span class="brand__name">Malik Elzarif</span>
-              <span class="brand__sub">Premium Business Presence</span>
-            </span>
-          </a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-mark" aria-label="Malik Elzarif Home">
+  <span class="brand-mark__logo">
+    <img src="assets/images/logo/logo-main.png" alt="Malik Elzarif logo" />
+  </span>
+  <span class="brand-mark__text">
+    <strong>Malik Elzarif</strong>
+    <small>Premium Digital Presence</small>
+  </span>
+</a>
 
-          <nav class="nav" aria-label="Primary Navigation">
-            <ul class="nav__list">
-              <li><a class="nav__link" href="index.html">Home</a></li>
-              <li><a class="nav__link" href="services.html">Services</a></li>
-              <li><a class="nav__link" href="projects.html">Projects</a></li>
-              <li><a class="nav__link" href="about.html">About</a></li>
-              <li><a class="nav__link is-active" href="contact.html">Booking</a></li>
-            </ul>
-          </nav>
+      <nav class="main-nav" aria-label="Primary navigation">
+        <ul class="main-nav__list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a class="is-active" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
 
-          <div class="header__actions">
-            <a class="btn btn--primary" href="#schedule">Book Now</a>
-          </div>
+      <a href="contact.html" class="header-cta btn btn--primary">Book Consultation</a>
 
-          <button
-            class="menu-toggle"
-            type="button"
-            aria-label="Open menu"
-            aria-controls="mobile-menu"
-            aria-expanded="false"
-          >
-            <span></span><span></span><span></span>
-          </button>
-        </div>
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-label="Open navigation"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <div class="mobile-menu" id="mobile-menu">
+      <nav class="container mobile-nav" aria-label="Mobile navigation">
+        <ul class="mobile-nav__list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <a href="contact.html" class="btn btn--primary btn--full">Book Consultation</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero page-hero--contact">
+      <div class="container page-hero__content">
+        <p class="eyebrow">Contact</p>
+        <h1>Let’s define how your business should look, feel, and be perceived.</h1>
+        <p>
+          If your current website or brand presentation feels below the real value of your
+          business, this is where the conversation starts.
+        </p>
       </div>
+    </section>
 
-      <div class="mobile-menu" id="mobile-menu" hidden>
-        <div class="mobile-menu__panel">
-          <div class="mobile-menu__top">
-            <span class="mobile-menu__title">Navigation</span>
-            <button class="mobile-menu__close" type="button" aria-label="Close menu">×</button>
-          </div>
-
-          <nav class="mobile-nav" aria-label="Mobile Navigation">
-            <ul class="mobile-nav__list">
-              <li><a href="index.html">Home</a></li>
-
-              <li class="mobile-accordion">
-                <button
-                  class="mobile-accordion__trigger"
-                  type="button"
-                  aria-expanded="false"
-                  aria-controls="mobile-services-submenu"
-                >
-                  Services
-                  <span aria-hidden="true">+</span>
-                </button>
-
-                <div class="mobile-accordion__content" id="mobile-services-submenu" hidden>
-                  <a href="services.html#web-design">Web Design & Development</a>
-                  <a href="services.html#storefront-media">Storefront Media & Signage</a>
-                  <a href="services.html#branding">Brand Presentation Systems</a>
-                  <a href="services.html#support">Ongoing Updates & Support</a>
-                </div>
-              </li>
-
-              <li><a href="projects.html">Projects</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="contact.html">Booking</a></li>
-            </ul>
-          </nav>
-
-          <div class="mobile-menu__actions">
-            <a class="btn btn--primary btn--block" href="#schedule">Book Now</a>
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <main id="main">
-      <section class="page-hero">
-        <div class="page-hero__bg" aria-hidden="true"></div>
-        <div class="container page-hero__inner">
-          <p class="eyebrow">Booking</p>
-          <h1 class="page-hero__title">Book an appointment</h1>
-          <p class="page-hero__text">
-            Schedule a consultation to discuss your website, storefront media, signage direction,
-            or full business presence upgrade.
+    <section class="section">
+      <div class="container contact-layout">
+        <div class="contact-copy">
+          <p class="eyebrow">Start the Conversation</p>
+          <h2>Consultation first. Random guesswork later never.</h2>
+          <p>
+            The strongest projects begin by identifying where the current presence feels weak,
+            what the business should communicate more clearly, and what level of refinement
+            will create the biggest shift in trust and perception.
           </p>
 
-          <div class="hero-actions">
-            <a href="#schedule" class="btn btn--primary">View Calendar</a>
-            <a href="Malik_Elzarif_Resume.pdf" class="btn btn--ghost" target="_blank" rel="noopener">
-              Download Resume
-            </a>
+          <div class="contact-info-grid">
+            <article class="contact-info-card">
+              <h3>Email</h3>
+              <p><a href="mailto:malikelzarif@gmail.com">malikelzarif@gmail.com</a></p>
+            </article>
+
+            <article class="contact-info-card">
+              <h3>Website</h3>
+              <p><a href="https://malikelzarif.com/">malikelzarif.com</a></p>
+            </article>
+
+            <article class="contact-info-card">
+              <h3>Project Focus</h3>
+              <p>Premium websites, digital positioning, and business presentation systems.</p>
+            </article>
+
+            <article class="contact-info-card">
+              <h3>Best Fit</h3>
+              <p>Service businesses, growing companies, and brands aiming for premium positioning.</p>
+            </article>
           </div>
         </div>
-      </section>
 
-      <section class="section" id="schedule">
-        <div class="container booking-layout">
-          <article class="booking-card">
-            <p class="eyebrow">Schedule</p>
-            <h2 class="section-title">Choose a time that works best</h2>
-            <p class="booking-lead">
-              Pick a time that fits your schedule and I’ll confirm quickly.
-            </p>
+        <div class="contact-form-wrap">
+          <form class="contact-form" action="#" method="post">
+            <div class="form-row">
+              <div class="form-field">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required />
+              </div>
 
-            <div class="booking-embed-wrap">
-              <iframe
-                class="booking-embed"
-                src="https://calendar.app.google/ypSGzHMoBdFUx6zt9"
-                title="Booking Calendar"
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade">
-              </iframe>
+              <div class="form-field">
+                <label for="business">Business Name</label>
+                <input type="text" id="business" name="business" placeholder="Your business name" />
+              </div>
             </div>
+
+            <div class="form-row">
+              <div class="form-field">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required />
+              </div>
+
+              <div class="form-field">
+                <label for="service">Service Needed</label>
+                <select id="service" name="service">
+                  <option value="">Select a service</option>
+                  <option value="website-design">Website Design</option>
+                  <option value="digital-positioning">Digital Positioning</option>
+                  <option value="brand-presentation">Brand Presentation</option>
+                  <option value="ongoing-support">Ongoing Support</option>
+                  <option value="custom-project">Custom Project</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-field">
+              <label for="message">Project Details</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="7"
+                placeholder="Tell me about your business, what feels weak right now, and what kind of presence you want to build."
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn--primary btn--full">Send Inquiry</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--muted">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">What to Expect</p>
+          <h2>A more focused and professional starting point.</h2>
+          <p>
+            The first step is understanding the business, identifying the presentation gap,
+            and defining the right level of work to improve credibility and market perception.
+          </p>
+        </div>
+
+        <div class="expectation-grid">
+          <article class="expectation-card">
+            <h3>1. Review</h3>
+            <p>
+              We look at the current website, brand presentation, and where the business may
+              be feeling weaker than it should.
+            </p>
           </article>
 
-          <div class="support-grid">
-            <article class="booking-info-card">
-              <h3 class="booking-info-title">What you can book</h3>
-              <ul class="booking-list">
-                <li>Website design consultation</li>
-                <li>Storefront signage and media discussion</li>
-                <li>Business presence strategy session</li>
-                <li>Project review and planning call</li>
-              </ul>
-            </article>
-
-            <article class="booking-info-card">
-              <h3 class="booking-info-title">Best for</h3>
-              <ul class="booking-list">
-                <li>Barbershops and salons</li>
-                <li>Retail and storefront businesses</li>
-                <li>Service brands and local companies</li>
-                <li>Corporate and premium presentation projects</li>
-              </ul>
-            </article>
-
-            <article class="booking-note-card">
-              <h3 class="booking-note-title">Direct links</h3>
-
-              <div class="booking-links">
-                <a href="mailto:malikelzarif@gmail.com">
-                  <span>Email</span>
-                  <span>→</span>
-                </a>
-
-                <a href="https://malikelzarif.com/" target="_blank" rel="noopener">
-                  <span>Website</span>
-                  <span>→</span>
-                </a>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section cta-section">
-        <div class="container">
-          <div class="cta-box">
-            <p class="eyebrow">Ready to Build?</p>
-            <h2>Let’s create something premium.</h2>
+          <article class="expectation-card">
+            <h3>2. Direction</h3>
             <p>
-              From responsive websites to storefront presentation, I help businesses look stronger,
-              cleaner, and more established.
+              I define the strongest design and positioning direction based on your business,
+              goals, and desired level of presentation.
             </p>
+          </article>
 
-            <div class="cta-box__actions">
-              <a class="btn btn--primary" href="#schedule">Book Appointment</a>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <div class="container footer__grid">
-        <div>
-          <h3>Malik Elzarif</h3>
-          <p class="footer__text">Premium websites & business presence systems.</p>
-        </div>
-
-        <div>
-          <h3>Navigation</h3>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="projects.html">Projects</a></li>
-          </ul>
-        </div>
-
-        <div>
-          <h3>Contact</h3>
-          <ul>
-            <li><a href="mailto:malikelzarif@gmail.com">Email</a></li>
-          </ul>
+          <article class="expectation-card">
+            <h3>3. Build</h3>
+            <p>
+              Once the direction is clear, the project moves into a cleaner, more deliberate,
+              and more controlled execution process.
+            </p>
+          </article>
         </div>
       </div>
+    </section>
 
-      <div class="container footer__bottom">
-        <p>© <span id="year"></span> Malik Elzarif</p>
+    <section class="section section--cta">
+      <div class="container cta-box">
+        <div class="cta-box__content">
+          <p class="eyebrow">Ready When You Are</p>
+          <h2>If the business is strong, the presentation should be strong too.</h2>
+          <p>
+            A better digital presence can change how the business is understood before the
+            first message, phone call, or meeting ever happens.
+          </p>
+        </div>
+
+        <div class="cta-box__actions">
+          <a href="mailto:malikelzarif@gmail.com" class="btn btn--primary">Email Directly</a>
+          <a href="projects.html" class="btn btn--secondary">View Projects</a>
+        </div>
       </div>
-    </footer>
-  </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <h3>Malik Elzarif</h3>
+        <p>
+          Premium digital presence, website design, and business presentation systems for
+          companies that want to look more credible, structured, and high-value.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:malikelzarif@gmail.com">malikelzarif@gmail.com</a></li>
+          <li><a href="https://malikelzarif.com/">malikelzarif.com</a></li>
+          <li>Serving premium service businesses and growing companies</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© 2026 Malik Elzarif. All rights reserved.</p>
+    </div>
+  </footer>
 
   <script src="js/main.js"></script>
 </body>

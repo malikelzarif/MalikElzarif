@@ -1,371 +1,275 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- =========================================================
-    Malik Elzarif — About
-    WHITE + BLUE PREMIUM VERSION / about.html
-  ========================================================== -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <title>About | Malik Elzarif — Premium Web & Business Presence Designer</title>
+  <title>About | Malik Elzarif</title>
   <meta
     name="description"
-    content="Learn about Malik Elzarif — a senior web designer and front-end developer building premium websites, storefront media, and business presence systems."
+    content="Learn more about Malik Elzarif and the thinking behind premium digital presence, business presentation, and high-value website design."
   />
-  <meta name="theme-color" content="#2459d3" />
-
-  <meta property="og:title" content="About | Malik Elzarif" />
-  <meta property="og:description" content="Premium web design and business presence systems." />
-  <meta property="og:type" content="website" />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@600;700&display=swap"
-    rel="stylesheet"
-  />
-
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
-  <div class="site-shell">
-    <!-- HEADER -->
-    <header class="header">
-      <div class="header__bar">
-        <div class="container header__inner">
-          <a class="brand" href="index.html">
-            <span class="brand__mark">ME</span>
-            <span class="brand__text">
-              <span class="brand__name">Malik Elzarif</span>
-              <span class="brand__sub">Premium Business Presence</span>
-            </span>
-          </a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-mark" aria-label="Malik Elzarif Home">
+  <span class="brand-mark__logo">
+    <img src="assets/images/logo/logo-main.png" alt="Malik Elzarif logo" />
+  </span>
+  <span class="brand-mark__text">
+    <strong>Malik Elzarif</strong>
+    <small>Premium Digital Presence</small>
+  </span>
+</a>
 
-          <nav class="nav">
-            <ul class="nav__list">
-              <li><a class="nav__link" href="index.html">Home</a></li>
-              <li><a class="nav__link" href="services.html">Services</a></li>
-              <li><a class="nav__link" href="projects.html">Projects</a></li>
-              <li><a class="nav__link is-active" href="about.html">About</a></li>
-              <li><a class="nav__link" href="contact.html">Contact</a></li>
-            </ul>
-          </nav>
+      <nav class="main-nav" aria-label="Primary navigation">
+        <ul class="main-nav__list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a class="is-active" href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
 
-          <div class="header__actions">
-            <a class="btn btn--primary" href="contact.html">Start</a>
-          </div>
+      <a href="contact.html" class="header-cta btn btn--primary">Book Consultation</a>
 
-          <button class="menu-toggle">
-            <span></span><span></span><span></span>
-          </button>
-        </div>
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-label="Open navigation"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <div class="mobile-menu" id="mobile-menu">
+      <nav class="container mobile-nav" aria-label="Mobile navigation">
+        <ul class="mobile-nav__list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <a href="contact.html" class="btn btn--primary btn--full">Book Consultation</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero page-hero--about">
+      <div class="container page-hero__content">
+        <p class="eyebrow">About</p>
+        <h1>I help businesses look more established, more credible, and more aligned with high-value work.</h1>
+        <p>
+          My focus is not just design for the sake of design. It is building digital
+          presence and business presentation that make a company feel sharper, stronger,
+          and more trusted.
+        </p>
       </div>
-    </header>
+    </section>
 
-    <main id="main">
-      <!-- HERO -->
-      <section class="page-hero">
-        <div class="container page-hero__inner">
-          <p class="eyebrow">About</p>
-          <h1 class="page-hero__title">I build premium business presence systems</h1>
-          <p class="page-hero__text">
-            I’m a web designer and front-end developer focused on helping businesses look
-            more established, more professional, and more trusted — both online and in person.
+    <section class="section">
+      <div class="container about-intro">
+        <div class="about-intro__media">
+          <img
+            src="assets/images/about/malik-portrait.jpg"
+            alt="Portrait of Malik Elzarif"
+          />
+        </div>
+
+        <div class="about-intro__content">
+          <p class="eyebrow">Who I Am</p>
+          <h2>Designing perception with a business-first mindset.</h2>
+          <p>
+            I work with businesses that already have real value but need their presentation
+            to reflect that more clearly. In many cases, the service is strong, but the
+            website, structure, and visual direction make the company feel smaller than it is.
+          </p>
+          <p>
+            My work is built around improving that gap. The goal is a cleaner, more controlled,
+            and more premium presence that helps a company feel ready for a higher level of trust.
+          </p>
+          <p>
+            That means better hierarchy, stronger visual discipline, more refined messaging,
+            and a more deliberate business-facing image overall.
           </p>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- MAIN STORY -->
-      <section class="section">
-        <div class="container about-grid">
-          <article class="about-card">
-            <h2>What I do</h2>
-            <p>
-              I design modern, high-end websites and combine them with storefront media,
-              signage direction, and visual brand systems. The goal is simple:
-              make your business look stronger everywhere customers see it.
-            </p>
-            <p>
-              Most businesses don’t have a design problem — they have a presentation problem.
-              Their website, storefront, and messaging don’t match. I fix that.
-            </p>
+    <section class="section section--muted">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Approach</p>
+          <h2>The work is shaped by clarity, structure, and perception.</h2>
+          <p>
+            Strong design is not random. It is the result of controlled decisions that make
+            the business easier to trust, easier to understand, and harder to overlook.
+          </p>
+        </div>
 
-            <ul class="about-list">
-              <li>Premium responsive websites</li>
-              <li>Storefront visual direction</li>
-              <li>Signage and front-facing presentation</li>
-              <li>Brand consistency systems</li>
+        <div class="approach-grid">
+          <article class="approach-card">
+            <h3>Clarity</h3>
+            <p>
+              Every section should help the customer understand the business faster, with
+              less friction and more confidence.
+            </p>
+          </article>
+
+          <article class="approach-card">
+            <h3>Structure</h3>
+            <p>
+              Layout, spacing, and hierarchy shape whether a company feels professional
+              or improvised.
+            </p>
+          </article>
+
+          <article class="approach-card">
+            <h3>Perception</h3>
+            <p>
+              The goal is to create a brand presence that feels more serious, more premium,
+              and more aligned with higher-value work.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container story-block">
+        <div class="story-block__content">
+          <p class="eyebrow">What I Build</p>
+          <h2>More than websites. A stronger market-facing presence.</h2>
+          <p>
+            I do not look at a website as a standalone object. I look at it as part of
+            the way a business is read by clients, partners, and prospects.
+          </p>
+          <p>
+            That is why the work goes beyond surface-level visuals. It focuses on the
+            overall impression the company gives: whether it feels credible, current,
+            deliberate, and ready for bigger opportunities.
+          </p>
+          <p>
+            The result is a digital presence that supports trust, reinforces quality,
+            and helps the business look more aligned with the level it is aiming for.
+          </p>
+        </div>
+
+        <aside class="story-block__aside">
+          <div class="info-card">
+            <h3>Core Focus</h3>
+            <ul>
+              <li>Premium website design</li>
+              <li>Business presentation systems</li>
+              <li>Digital positioning</li>
+              <li>Brand-facing visual direction</li>
+              <li>Long-term refinement support</li>
             </ul>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section--muted">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Best Fit</p>
+          <h2>Best for businesses ready to present themselves at a higher level.</h2>
+          <p>
+            The right fit is a business that wants to be seen as more credible, more
+            structured, and more valuable in the eyes of the people it serves.
+          </p>
+        </div>
+
+        <div class="fit-grid">
+          <article class="fit-card">
+            <h3>Service Companies</h3>
+            <p>
+              Businesses that need a stronger website and more refined presentation of what they do.
+            </p>
           </article>
 
-          <article class="statement-card">
-            <span class="statement-card__badge">Philosophy</span>
-            <h2>Design should make a business feel established</h2>
+          <article class="fit-card">
+            <h3>Growing Brands</h3>
             <p>
-              A good-looking website is not enough. The business needs to feel organized,
-              structured, and premium from the first second someone sees it.
+              Companies that are stepping into a more serious level and need their image to match.
             </p>
+          </article>
+
+          <article class="fit-card">
+            <h3>Premium Positioning</h3>
             <p>
-              That’s why I approach every project like a system — not just a design.
-              Everything connects: layout, colors, storefront, messaging, and structure.
+              Businesses that want to look more established, more trusted, and more high-value.
             </p>
           </article>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- PRINCIPLES -->
-      <section class="section">
-        <div class="container">
-          <div class="section-head">
-            <p class="eyebrow">Principles</p>
-            <h2 class="section-title">How I approach every project</h2>
-          </div>
-
-          <div class="cards cards--3">
-            <article class="principle-card">
-              <span class="principle-number">01</span>
-              <h3>Clarity over clutter</h3>
-              <p>
-                Clean layouts, strong hierarchy, and simple navigation always outperform
-                overloaded designs.
-              </p>
-            </article>
-
-            <article class="principle-card">
-              <span class="principle-number">02</span>
-              <h3>Premium feel</h3>
-              <p>
-                Spacing, typography, and structure are used to create a high-end,
-                trustworthy visual experience.
-              </p>
-            </article>
-
-            <article class="principle-card">
-              <span class="principle-number">03</span>
-              <h3>Real business impact</h3>
-              <p>
-                Every design decision is made to improve perception, trust,
-                and conversion — not just aesthetics.
-              </p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <!-- EXPERTISE -->
-      <section class="section">
-        <div class="container">
-          <div class="section-head">
-            <p class="eyebrow">Expertise</p>
-            <h2 class="section-title">What I specialize in</h2>
-          </div>
-
-          <div class="cards cards--3">
-            <article class="expertise-card">
-              <h3>Front-End Development</h3>
-              <p>
-                Clean, responsive HTML, CSS, and JavaScript builds with strong performance and structure.
-              </p>
-            </article>
-
-            <article class="expertise-card">
-              <h3>UI / UX Design</h3>
-              <p>
-                Modern layouts focused on usability, clarity, and high-conversion page flow.
-              </p>
-            </article>
-
-            <article class="expertise-card">
-              <h3>Business Presentation</h3>
-              <p>
-                Aligning website, storefront, and brand visuals into one premium system.
-              </p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <!-- JOURNEY -->
-      <section class="section">
-        <div class="container">
-          <div class="section-head">
-            <p class="eyebrow">Process</p>
-            <h2 class="section-title">How I work with clients</h2>
-          </div>
-
-          <div class="cards cards--3">
-            <article class="journey-card">
-              <span class="journey-step">01</span>
-              <h3>Understand</h3>
-              <p>Learn the business, goals, and current challenges.</p>
-            </article>
-
-            <article class="journey-card">
-              <span class="journey-step">02</span>
-              <h3>Design</h3>
-              <p>Create a premium layout and visual direction.</p>
-            </article>
-
-            <article class="journey-card">
-              <span class="journey-step">03</span>
-              <h3>Refine</h3>
-              <p>Polish everything until it feels clean and professional.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <!-- CTA -->
-      <section class="section cta-section">
-        <div class="container">
-          <div class="cta-box">
-            <p class="eyebrow">Let’s Work Together</p>
-            <h2>Ready to upgrade your business presence?</h2>
-            <p>
-              I help businesses look more professional, more structured, and more premium
-              across every customer touchpoint.
-            </p>
-
-            <div class="cta-box__actions">
-              <a class="btn btn--primary" href="contact.html">Start a Project</a>
-            </div>
-          </div>
-        </div>
-      </section>
-<!-- =========================================================
-  NEXT CODE / PRICING SECTION
-  Add this section to index.html right ABOVE the final CTA section
-========================================================= -->
-<section class="section pricing-section" id="pricing">
-  <div class="container">
-    <div class="section-head">
-      <p class="eyebrow">Pricing</p>
-      <h2 class="section-title">Clear packages for premium business presence</h2>
-      <p class="section-text">
-        Choose the level that fits your business. Every package is built to improve presentation,
-        trust, and the way customers experience your brand.
-      </p>
-    </div>
-
-    <div class="pricing-grid">
-      <article class="pricing-card">
-        <div class="pricing-card__top">
-          <span class="pricing-card__label">Starter</span>
-          <h3>Website Foundation</h3>
-          <p>Best for businesses that need a clean, professional online presence.</p>
+    <section class="section section--cta">
+      <div class="container cta-box">
+        <div class="cta-box__content">
+          <p class="eyebrow">Work Together</p>
+          <h2>If the business is stronger than the current presentation, that can be fixed.</h2>
+          <p>
+            The next step is defining where the current presence feels weak and what kind
+            of refinement will create the biggest change in trust and perception.
+          </p>
         </div>
 
-        <div class="pricing-card__price">
-          <strong>Starting at $900</strong>
-          <span>One-time project</span>
-        </div>
-
-        <ul class="pricing-list">
-          <li>Custom responsive website</li>
-          <li>Homepage + core pages</li>
-          <li>Mobile-first structure</li>
-          <li>Contact or booking section</li>
-          <li>Clean premium design</li>
-          <li>Basic SEO-ready setup</li>
-        </ul>
-
-        <div class="pricing-card__actions">
-          <a class="btn btn--ghost btn--block" href="contact.html">Book Starter</a>
-        </div>
-      </article>
-
-      <article class="pricing-card pricing-card--featured">
-        <div class="pricing-card__badge">Most Popular</div>
-
-        <div class="pricing-card__top">
-          <span class="pricing-card__label">Premium</span>
-          <h3>Business Growth System</h3>
-          <p>Best for brands that want stronger positioning, better presentation, and more trust.</p>
-        </div>
-
-        <div class="pricing-card__price">
-          <strong>Starting at $1,800</strong>
-          <span>One-time project</span>
-        </div>
-
-        <ul class="pricing-list">
-          <li>Everything in Starter</li>
-          <li>More advanced page structure</li>
-          <li>Premium service section design</li>
-          <li>Stronger conversion-focused layout</li>
-          <li>Brand presentation refinement</li>
-          <li>Portfolio / gallery / featured work</li>
-          <li>Priority design polish</li>
-        </ul>
-
-        <div class="pricing-card__actions">
-          <a class="btn btn--primary btn--block" href="contact.html">Book Premium</a>
-        </div>
-      </article>
-
-      <article class="pricing-card">
-        <div class="pricing-card__top">
-          <span class="pricing-card__label">Full System</span>
-          <h3>Digital + Storefront Presence</h3>
-          <p>Best for businesses that want their website and storefront image aligned.</p>
-        </div>
-
-        <div class="pricing-card__price">
-          <strong>Custom Quote</strong>
-          <span>Based on scope</span>
-        </div>
-
-        <ul class="pricing-list">
-          <li>Everything in Premium</li>
-          <li>Storefront media direction</li>
-          <li>Signage and front-visual concepts</li>
-          <li>Website + physical branding alignment</li>
-          <li>Premium presentation strategy</li>
-          <li>High-touch consultation support</li>
-        </ul>
-
-        <div class="pricing-card__actions">
-          <a class="btn btn--ghost btn--block" href="contact.html">Request Quote</a>
-        </div>
-      </article>
-    </div>
-  </div>
-</section>
-    </main>
-
-    <!-- FOOTER -->
-    <footer class="footer">
-      <div class="container footer__grid">
-        <div>
-          <h3>Malik Elzarif</h3>
-          <p class="footer__text">Premium websites & business presence systems.</p>
-        </div>
-
-        <div>
-          <h3>Navigation</h3>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="projects.html">Projects</a></li>
-          </ul>
-        </div>
-
-        <div>
-          <h3>Contact</h3>
-          <ul>
-            <li><a href="mailto:malikelzarif@gmail.com">Email</a></li>
-          </ul>
+        <div class="cta-box__actions">
+          <a href="contact.html" class="btn btn--primary">Book Consultation</a>
+          <a href="projects.html" class="btn btn--secondary">View Projects</a>
         </div>
       </div>
+    </section>
+  </main>
 
-      <div class="container footer__bottom">
-        <p>© <span id="year"></span> Malik Elzarif</p>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <h3>Malik Elzarif</h3>
+        <p>
+          Premium digital presence, website design, and business presentation systems for
+          companies that want to look more credible, structured, and high-value.
+        </p>
       </div>
-    </footer>
-  </div>
+
+      <div class="footer-links">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:malikelzarif@gmail.com">malikelzarif@gmail.com</a></li>
+          <li><a href="https://malikelzarif.com/">malikelzarif.com</a></li>
+          <li>Serving premium service businesses and growing companies</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© 2026 Malik Elzarif. All rights reserved.</p>
+    </div>
+  </footer>
 
   <script src="js/main.js"></script>
 </body>
